@@ -1996,7 +1996,7 @@ module SyntaxTree
       parents = q.parents.to_a
       parents.each_with_index.any? do |parent, index|
         # If we hit certain breakpoints then we know we're safe.
-        break false if [Paren, Statements].include?(parent.class)
+        break false if [Paren, Statements, Binary].include?(parent.class)
 
         [
           If,

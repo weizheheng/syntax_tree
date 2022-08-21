@@ -32,3 +32,24 @@ end
 unless foo
   a ? b : c
 end
+%
+unless foooooooooooooooooooooo || barrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.any? { |bar| bazzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz }
+  something
+end
+-
+unless foooooooooooooooooooooo ||
+         barrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.any? do |bar|
+           bazzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+         end
+  something
+end
+%
+unless barrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.any? { |bar| bazzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz }
+  something
+end
+-
+unless barrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.any? { |bar|
+         bazzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+       }
+  something
+end

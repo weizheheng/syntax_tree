@@ -23,3 +23,24 @@ end
 until (foo += 1)
   foo
 end
+%
+until foooooooooooooooooooooo || barrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.any? { |bar| bazzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz }
+  something
+end
+-
+until foooooooooooooooooooooo ||
+        barrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.any? do |bar|
+          bazzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+        end
+  something
+end
+%
+until barrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.any? { |bar| bazzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz }
+  something
+end
+-
+until barrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.any? { |bar|
+        bazzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+      }
+  something
+end

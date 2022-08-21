@@ -23,3 +23,24 @@ end
 while (foo += 1)
   foo
 end
+%
+while foooooooooooooooooooooo || barrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.any? { |bar| bazzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz }
+  something
+end
+-
+while foooooooooooooooooooooo ||
+        barrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.any? do |bar|
+          bazzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+        end
+  something
+end
+%
+while barrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.any? { |bar| bazzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz }
+  something
+end
+-
+while barrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.any? { |bar|
+        bazzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+      }
+  something
+end
